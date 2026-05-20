@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated images
+code_images/*
+!code_images/.gitkeep
+
+# User input code
+input_code/*
+!input_code/.gitkeep
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
